@@ -1,9 +1,15 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './index.css'
+import Home from './components/Home/Home'
 
 function App() {
 
   return (
-    <h1 className='text-center text-2xl text-orange-400 underline'>Hello Tailwind!!!</h1>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
