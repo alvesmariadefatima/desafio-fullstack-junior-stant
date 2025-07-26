@@ -1,4 +1,5 @@
 import Navbar from "../Navbar/Navbar"
+import SectionPizza from "../SectionPizza/SectionPizza"
 
 const Home = () => {
     return (
@@ -15,6 +16,8 @@ const Home = () => {
                 alt="Banner da Pizzaria SVG (Versão Mobile)" 
                 className="block md:hidden w-full"
             />
+
+            <SectionPizza />
         </>
     )
 }
