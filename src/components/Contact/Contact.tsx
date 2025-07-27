@@ -79,7 +79,7 @@ const Contact = () => {
           className="bg-orange-400 text-white font-semibold py-2 rounded hover:bg-orange-500 transition-colors flex items-center justify-center gap-2"
         >
         <img 
-            src="src/assets/send-01.png" 
+            src="/send-01.png" 
             alt="Ícone de avião" 
             className="w-5 h-5"
         />

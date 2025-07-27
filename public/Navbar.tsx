@@ -16,7 +16,7 @@ const Navbar = () => {
     <nav className="bg-yellow-400 p-4 relative flex items-center justify-between w-full">
       <div className="flex items-center">
         <img
-          src="src/assets/logotipo-pizzaria.png"
+          src="/logotipo-pizzaria.png"
           alt="Logotipo do Pizza SVG"
           className="h-12 w-auto"
         />
@@ -45,7 +45,7 @@ const Navbar = () => {
         target="_blank" 
         className="hidden md:flex items-center gap-2 bg-white px-5 py-2 rounded shadow-md transition-colors">
         <img
-          src="src/assets/whatsapp-line.png"
+          src="/whatsapp-line.png"
           alt="Ícone do Whatsapp"
           className="h-5 w-5"
         />
@@ -58,7 +58,7 @@ const Navbar = () => {
         aria-label="Menu suspenso"
       >
         <img
-          src="src/assets/menu-sanduiche.png"
+          src="/menu-sanduiche.png"
           alt="Menu sanduíche"
           className="h-6 w-6"
         />
@@ -100,7 +100,7 @@ const Navbar = () => {
               className="flex items-center gap-2 bg-white font-semibold px-6 py-3 rounded shadow-md w-max transition-colors"
             >
               <img
-                src="src/assets/whatsapp-line.png"
+                src="/whatsapp-line.png"
                 alt="Ícone do Whatsapp"
                 className="h-6 w-6"
               />

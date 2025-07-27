@@ -3,7 +3,7 @@ const SectionPizza = () => {
         <section id="home" className="max-w-6xl mx-auto px-6 py-12 flex flex-col md:flex-row items-center gap-12">
             <div className="w-full md:w-1/2 flex-shrink-0">
                 <img
-                    src="src/assets/pizza_derretendo desktop.png"
+                    src="/Pizza_derretendo desktop.png"
                     alt="Foto de pizza derretendo"
                     className="w-full rounded-lg object-cover"
                 />
@@ -22,8 +22,8 @@ const SectionPizza = () => {
                     <li className="flex flex-col text-left md:flex-row md:items-start md:text-left gap-4">
                         <div className="bg-white p-3 rounded-xl shadow-md w-12 h-12 flex items-center">
                             <img
-                                src="src/assets/liberty.png"
-                                alt="Ícone representando liberdade"
+                                src="/liberty.png"
+                                alt="Ícone das mãos apoiando uma medalha"
                                 className="w-6 h-6"
                             />
                         </div>
@@ -38,7 +38,7 @@ const SectionPizza = () => {
                     <li className="flex flex-col text-left md:flex-row md:items-start md:text-left gap-4">
                         <div className="bg-white p-3 rounded-xl shadow-md w-12 h-12 flex items-center">
                             <img
-                                src="src/assets/manutencao.png"
+                                src="/manutencao.png"
                                 alt="Ícone de manutenção"
                                 className="w-6 h-6"
                             />
@@ -55,7 +55,7 @@ const SectionPizza = () => {
                     <li className="flex flex-col text-left md:flex-row md:items-start md:text-left gap-4">
                         <div className="bg-white p-3 rounded-xl shadow-md w-12 h-12 flex items-center">
                             <img
-                                src="src/assets/cartao.png"
+                                src="/cartao.png"
                                 alt="Ícone de cartão de crédito"
                                 className="w-6 h-6"
                             />
