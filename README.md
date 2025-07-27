@@ -23,7 +23,7 @@ O site tem seções importantes como o banner principal, uma área com destaque 
 
 ---
 
-## Como o Projeto Está Organizado
+## Organização do Projeto
 
 Os componentes ficam dentro da pasta `src/components`. Cada parte da página está dividida em pequenos pedaços, como:
 
@@ -49,7 +49,7 @@ Além disso, tenho uma pasta para as regras de validação do formulário feitas
 
 ---
 
-## Como Rodar o Projeto na Sua Máquina
+## Como Rodar o Projeto
 
 Se quiser testar localmente, é só seguir esses passos:
 
@@ -57,7 +57,6 @@ Se quiser testar localmente, é só seguir esses passos:
    ```bash
    git clone https://github.com/seuusuario/pizza-svg.git
 
-Aqui está o README pronto em markdown, já formatado para você copiar e usar direto no seu projeto:
 
 # 🍕 Pizza SVG
 
@@ -120,15 +119,18 @@ Se quiser testar localmente, é só seguir esses passos:
 
 2. Entre na pasta do projeto e instale as dependências:
 
-```npm install```
+```bash
+npm install
 
 
 3. Rode o projeto:
 
-```npm run dev```
+```bash
+npm run dev
 
 
 4. Abra o navegador no endereço:
 
-```http://localhost:5173```
+```bash
+http://localhost:5173
 
