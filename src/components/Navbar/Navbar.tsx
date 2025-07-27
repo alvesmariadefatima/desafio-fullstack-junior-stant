@@ -24,17 +24,17 @@ const Navbar = () => {
 
       <ul className="hidden md:flex gap-8 text-white">
         <li>
-          <a href="#" className="hover:underline">
+          <a href="#home" className="hover:underline">
             BLOCO 1
           </a>
         </li>
         <li>
-          <a href="#" className="hover:underline">
+          <a href="#faq" className="hover:underline">
             FAQ
           </a>
         </li>
         <li>
-          <a href="#" className="hover:underline">
+          <a href="#contact" className="hover:underline">
             CONTATO
           </a>
         </li>
@@ -72,21 +72,21 @@ const Navbar = () => {
           `}
         >
           <a
-            href="#"
+            href="#home"
             className="text-white text-lg font-semibold hover:underline text-center"
             onClick={() => setIsOpen(false)}
           >
             Bloco 1
           </a>
           <a
-            href="#"
+            href="#faq"
             className="text-white text-lg font-semibold hover:underline text-center"
             onClick={() => setIsOpen(false)}
           >
             FAQ
           </a>
           <a
-            href="#"
+            href="#contact"
             className="text-white text-lg font-semibold hover:underline text-center"
             onClick={() => setIsOpen(false)}
           >

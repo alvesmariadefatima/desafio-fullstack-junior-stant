@@ -32,7 +32,7 @@ const FAQSection = () => {
 
   return (
     <>
-      <section className="max-w-6xl mx-auto px-6 py-12 flex flex-col-reverse md:flex-row items-stretch gap-6">
+      <section id="faq" className="max-w-6xl mx-auto px-6 py-12 flex flex-col-reverse md:flex-row items-stretch gap-6">
         <div className="w-full md:w-1/2 flex flex-col gap-6 md:h-full justify-start">
           <p className="text-orange-400 font-bold uppercase">FAQ</p>
 

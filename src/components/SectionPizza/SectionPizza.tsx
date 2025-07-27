@@ -1,6 +1,6 @@
 const SectionPizza = () => {
     return (
-        <section className="max-w-6xl mx-auto px-6 py-12 flex flex-col md:flex-row items-center gap-12">
+        <section id="home" className="max-w-6xl mx-auto px-6 py-12 flex flex-col md:flex-row items-center gap-12">
             <div className="w-full md:w-1/2 flex-shrink-0">
                 <img
                     src="src/assets/pizza_derretendo desktop.png"
