@@ -59,18 +59,15 @@ Se quiser testar localmente, é só seguir esses passos:
 
 2. Entre na pasta do projeto e instale as dependências:
 
-```bash
-npm install```
+```npm install```
 
 
 3. Rode o projeto:
 
-```bash
-npm run dev```
+```npm run dev```
 
 
 4. Abra o navegador no endereço:
 
-```bash
-http://localhost:5173```
+```http://localhost:5173```
 
