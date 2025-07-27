@@ -3,7 +3,7 @@ const Footer = () => {
         <footer className="bg-yellow-400 py-6 px-4">
             <div className="max-w-6xl mx-auto flex flex-col items-center text-center gap-2">
                 <img 
-                    src="src/assets/logotipo-pizzaria.png" 
+                    src="/logotipo-pizzaria.png" 
                     alt="Logotipo da Pizza SVG" 
                     className="w-24 h-auto mb-4"
                 />

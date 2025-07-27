@@ -41,9 +41,8 @@ const FAQSection = () => {
           </h2>
 
           <p className="text-gray-600 text-sm">
-            Lorem ipsum dolor sit amet consectetur.{" "}
-            <span className="text-orange-400 font-bold">Etiam pellentesque</span>{" "}
-            gravida eu egestas sed quis donec ipsum eu. In viverra velit.
+            Lorem ipsum dolor sit amet consectetur.
+            <span className="text-orange-400 font-bold"> Etiam pellentesque</span> gravida eu egestas sed quis donec ipsum eu. In viverra velit.
           </p>
 
           <div className="flex flex-col gap-4">
@@ -60,12 +59,12 @@ const FAQSection = () => {
                     <span className="ml-4 w-6 h-6 flex items-center justify-center">
                       {isActive ? (
                         <img
-                          src="src/assets/minus-circle.png"
+                          src="/minus-circle.png"
                           alt="Ícone do botão menos"
                         />
                       ) : (
                         <img
-                          src="src/assets/plus-circle.png"
+                          src="/plus-circle.png"
                           alt="Ícone do botão mais"
                         />
                       )}
@@ -85,13 +84,13 @@ const FAQSection = () => {
 
         <div className="w-full md:w-1/2 flex justify-end items-start">
           <img
-            src="src/assets/Multipizza desktop.png"
+            src="/Multipizza desktop.png"
             alt="Foto com várias fatias de pizza (Versão desktop)"
             className="hidden md:block h-full object-cover rounded"
           />
 
           <img
-            src="src/assets/Multipizza mobile.png"
+            src="/Multipizza mobile.png"
             alt="Fotos com várias fatias de pizza (Versão mobile)"
             className="block md:hidden w-full max-w-sm mb-6"
           />
@@ -103,14 +102,17 @@ const FAQSection = () => {
         <p className="text-center text-gray-600">Entre em contato direto com nossos atendentes.</p>
 
         <div className="flex justify-center mt-6">
-          <button className="bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-md shadow-md transition duration-300 flex items-center gap-2">
+          <a
+            href="https://api.whatsapp.com/send/?phone=5545988041417&text=Oi+mensagem%0A&type=phone_number&app_absent=0" 
+            target="_blank"
+            className="bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-md shadow-md transition duration-300 flex items-center gap-2">
             <img
-              src="src/assets/logotipo-whatsapp-branco.png"
+              src="/logotipo-whatsapp-branco.png"
               alt="Logotipo Whatsapp branco"
               className="w-5 h-5"
             />
             Entrar em contato
-          </button>
+          </a>
         </div>
       </section>
     </>
