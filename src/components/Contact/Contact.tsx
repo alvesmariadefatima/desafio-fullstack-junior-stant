@@ -25,7 +25,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="px-4 py-10 max-w-xl mx-auto">
+    <section id="contact" className="px-4 py-10 max-w-xl mx-auto">
       <p className="text-orange-400 font-bold text-center py-5">Entre em contato</p>
       <h1 className="text-2xl text-center md:text-4xl font-extrabold leading-tight">
         Fale com a nossa equipe especializada e adquira nossos serviços
