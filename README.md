@@ -55,7 +55,7 @@ Se quiser testar localmente, é só seguir esses passos:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seuusuario/pizza-svg.git
+   git clone https://github.com/seuusuario/desafio-fullstack-junior-stant.git
 
 2. Entre na pasta do projeto e instale as dependências:
 
